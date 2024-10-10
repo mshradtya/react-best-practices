@@ -4,7 +4,7 @@
 
 // import { useEffect, useState } from "react";
 
-// const Form = () => {
+// const UnnecessaryUseEffect2 = () => {
 //   const [age, setAge] = useState(0);
 //   const [isValidAge, setIsValidAge] = useState(false);
 
@@ -30,13 +30,13 @@
 //   );
 // };
 
-// export default Form;
+// export default UnnecessaryUseEffect2;
 
 // the best practice would be to just do the state syncing inside the handler itself
 
 import { useState } from "react";
 
-const Form = () => {
+const UnnecessaryUseEffect2 = () => {
   const [age, setAge] = useState(0);
   const [isValidAge, setIsValidAge] = useState(false);
 
@@ -59,4 +59,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default UnnecessaryUseEffect2;
